@@ -7,7 +7,7 @@ This e-commerce is a project developed by me and 5 more colleagues from the soy 
 
 PostgreSQL was used for the database.
 
-In the back-end it was made with NodeJS and Express
+In the back-end it was made with NodeJS and Express.
 
 For the front-end React and Redux were used in the styles were used CSS in its pure state, Material-UI, React-Boostrap and React-Styled-Components
 in addition to a library for forms (Formik).
