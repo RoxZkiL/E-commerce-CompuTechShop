@@ -2,6 +2,8 @@
   
   <h3>
 This e-commerce is a project developed by me and 5 more colleagues from the soy Henry bootcamp.
+    
+    </br>   
 
 PostgreSQL was used for the database.
 
