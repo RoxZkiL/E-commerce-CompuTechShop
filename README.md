@@ -26,7 +26,7 @@ You can edit your user information after registration as well as change your pro
 
 These, among many others, are some of the features of the project.
     
-    Deployed Link: <a href="https://computechshop.vercel.app/">CompuTechShop</a>
+Deployed Link: <a href="https://computechshop.vercel.app/">CompuTechShop</a>
 
 I hope you like it!!
   </h3>
