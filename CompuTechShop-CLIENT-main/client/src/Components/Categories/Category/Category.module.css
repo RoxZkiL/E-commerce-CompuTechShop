@@ -1,0 +1,30 @@
+.category {
+    /* color: white; */
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.productsCardsContainer {
+    max-width: 900px;
+    margin: 20px auto;
+    /* background-color: white; */
+    border-radius: 50px;
+    overflow: auto;  
+}
+
+.productsContainer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productsContainer {
+        display:block;
+    }
+    .productsCardsContainer {
+        margin-top: 5px;
+    }
+}

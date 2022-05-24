@@ -1,0 +1,18 @@
+.cartSendContainer {
+    min-height: 100vh;
+    position: relative;
+}
+
+.cartSend {
+    min-height: 100vh;
+    position: relative;
+}
+
+.containerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0 100px 0;
+}

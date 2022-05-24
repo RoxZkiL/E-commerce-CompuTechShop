@@ -1,0 +1,47 @@
+.letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.background {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.caja { 
+font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+color: #ffffff; 
+font-size: 18px; 
+font-weight: 400; 
+text-align: center; 
+background: #000207; 
+margin: 50px 0 25px; 
+overflow: hidden; 
+padding: 20px; 
+border-radius: 35px 0px 35px 0px; 
+-moz-border-radius: 35px 0px 35px 0px; 
+-webkit-border-radius: 35px 0px 35px 0px; 
+border: 2px solid #000309;
+    }
+
+    .button {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: flex;
+        font-size: 16px;
+        margin: 4px 2px;
+        padding: 12px 28px;
+        border-radius: 8px;
+        transition-duration: 0.4s;
+      }
+

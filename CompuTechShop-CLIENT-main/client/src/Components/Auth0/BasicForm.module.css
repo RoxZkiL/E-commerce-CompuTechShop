@@ -1,0 +1,27 @@
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-self: center;
+    height: auto;
+}
+
+.basicForm {
+    min-height: 100vh;
+}
+
+.form .createButton {
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

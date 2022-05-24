@@ -1,0 +1,9 @@
+.heart img {
+    width: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.heart img:hover {
+    filter: brightness(2);
+}

@@ -1,0 +1,127 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}  
+
+.cardsContainerProfiles {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1400px;
+}
+  
+.cardsContainerProfiles p{
+  line-height: 1;
+}
+  .column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    display: flex;
+    position: relative;
+    align-items: center;
+  }
+  
+  .card {
+    display: flex;
+    position: relative;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgba(11, 67, 222, 0.2);
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 50px;
+    border: rgb(23, 8, 191);
+    padding: 10px;
+    border-width: 20px;
+    align-items: center;
+    max-width: 370px;
+    max-height: 450px;
+  }
+
+  .aboutSection {
+    text-align: center;
+    color: rgb(5, 5, 5);
+  }
+
+  .box1 {
+    background-color: rgba(0,0,0,.5);
+    color: #ffffff;
+    border-radius: 10%;
+}
+
+.aboutText {
+  color: white;
+  padding: 10px;
+  border-bottom: 1px solid rgb(3, 26, 158);
+  box-shadow: 0 0 10px 1px rgba(3, 26, 158, 0.537);
+  margin-bottom: 25px;
+}
+.aboutText h1 {
+  color: rgb(3, 26, 158);
+  font-weight: bold;
+}
+  
+  .container {
+    padding: 0 16px;
+    text-align: center;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  } 
+  
+  .button {
+    display: flex;
+    margin: auto;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .text {
+      text-align: center;
+      color: #000;
+  }
+
+  .img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100%;
+      border: 2px solid rgb(3, 26, 158); 
+      object-fit: cover;
+      transition: .5s;
+    }
+
+    .img:hover {
+      filter: brightness(1.2);
+    }
+
+    .div{
+        padding-top: 2%;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .div img {
+      transition: .5s;
+      border-radius: 100%;
+    }
+    .div img:hover {
+      background-color: rgb(7, 24, 120); 
+      border-radius: 100%;
+    }

@@ -1,0 +1,85 @@
+.searchBarContainer {
+    margin: 0 auto;
+    display: flex;
+    width: 600px;
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.202);
+    box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.219);
+    font-size: 1rem;
+  }
+  
+  .searchBarContainer input {
+    text-align: center;
+    letter-spacing: .2rem;
+    font-size: 1.1rem;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    font-family: 'Iceland', cursive;
+    display: flex;
+    margin: 0 0 20px 20px;
+  }
+  
+  .searchBarContainer input::placeholder{
+    color: gray;
+  }
+    
+  .searchBarContainer input:focus {
+    outline: 0;
+    background: transparent;
+  }
+  
+  .searchBarContainer .searchBarButton {
+    letter-spacing: .1rem;
+    position: relative;
+    float: right;
+    padding: 0;
+    cursor: pointer;
+    height: auto;
+    width: 150px;
+    color: #EFFCD5;
+    background: transparent;
+    border: 0;
+    border-left: 1px solid rgba(255, 255, 255, 0.203);
+    border-radius: 0 5px 5px 0;
+    transition: .5s;
+  }
+    
+  .searchBarContainer .searchBarButton:hover {
+    background: rgba(47, 47, 225, 0.843);
+    border-color: rgba(47, 47, 225, 0.843);
+  }
+  
+  .searchBarContainer .searchBarButton:active {
+    box-shadow: 0px 0px 50px 0px #e1e1e1;
+  }
+  
+  .searchBarContainer .searchBarButton:focus {
+    outline: 0;
+  }
+  
+  .searchBarInput:focus::placeholder {
+    color: transparent;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .searchBarContainer {
+      max-width: 220px;
+      font-size: .7rem;
+      box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.219);
+      height: 35px;
+    }
+    .searchBarContainer .searchBarButton {
+      width: 80px;
+      font-size: .6rem;
+    }
+    .searchBarContainer .searchBarButton:active {
+      box-shadow: 0px 0px 10px 0px #e1e1e1;
+    }
+    .searchBarContainer input {
+      margin-left: 0;
+    }
+    .searchBarContainer input {
+      background: none;
+    }
+  }

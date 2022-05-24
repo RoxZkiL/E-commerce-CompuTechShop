@@ -1,0 +1,42 @@
+.myFavorites {
+    color: white;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.myFavoritesContainer {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    margin-bottom: 100px;
+}
+
+.cardsContainer {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 50px;
+    overflow: auto;  
+}
+
+.favTitle {
+    border-top: 1px solid rgba(255, 255, 255, 0.188);
+    padding-top: 15px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+    margin-bottom: 39px;
+}
+
+.favTitle {
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .myFavoritesContainer {
+        display:block;
+    }
+}

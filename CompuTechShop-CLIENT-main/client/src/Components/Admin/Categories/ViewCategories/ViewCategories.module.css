@@ -1,0 +1,37 @@
+.viewCategoriesContainer {
+  justify-content: center;
+}
+
+.viewCategoriesContainer h1 {
+  font-size: 1.8rem;
+}
+
+.viewCategories {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.categories {
+  margin: 50px auto;
+}
+
+
+.button {
+  background: none;
+  border: none;
+}
+.button img {
+  height: 18px;
+  display: flex;
+  transition: .5s;
+}
+.button img:hover {
+  filter: brightness(1.5);
+}
+
+.button img:active {
+  transform: scale(1.5)
+}
+
+

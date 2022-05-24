@@ -1,0 +1,14 @@
+.btncito{
+  background-color: antiquewhite;
+}
+
+button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  box-shadow: none !important;
+}
+
+.cart img{
+  width: 30px;
+  height: 30px;
+}

@@ -1,0 +1,119 @@
+.purchaseSummary {
+    min-height: 100vh;
+    position: relative;
+}
+
+.containerImgBtn button {
+    margin: 10px 0;
+    width: 200px;
+    justify-content: center;
+}
+
+.title {
+    border-top: 1px solid rgba(255, 255, 255, 0.188);
+    padding-top: 15px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: white;
+}
+
+.redirect {
+    min-height: 100vh;
+}
+
+.summaryContainer{
+    flex-direction: row-reverse;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.cardsContainer {
+    border-radius: 50px;
+    overflow: auto;  
+    max-width: 900px;
+    min-width: 900px;
+}
+
+.text {
+    font-size: 2rem;
+    width: 300px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+    .containerImgBtn{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .productNotFound {
+        display: flex;
+        width: 50%;
+        text-align: center;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 500px;
+        height: 250px;
+        /* box-shadow: 0 0 5px 1px rgba(255, 255, 255, 0.218); */
+    }
+    
+    .productNotFoundContainer {
+        color: white;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .productNotFoundContainer h1 {
+        margin-bottom: 20px;
+    }
+
+    .purchaseResult {
+        min-height: 100vh;
+    }
+
+    .backToSite {
+        width: 150px;
+        display: flex;
+        align-self: center;
+        margin: auto;
+    }
+
+    .hideProduct {
+        display: none;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        .productNotFound {
+            width: calc(100% - 30px);
+        }
+        .summaryContainer {
+            display: block;
+        }
+        .cardsContainer {
+            min-width: 0;
+        }
+        .containerImgBtn {
+            height: 200px;
+            text-align: center;
+            width: calc(100% - 30px);
+            margin: auto;
+        }
+        .containerImgBtn button {
+            margin: 5px auto;
+            width: 250px;
+        }
+        .text {
+            width: calc(100% - 30px);
+        }
+    }

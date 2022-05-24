@@ -1,0 +1,89 @@
+.filter {
+    margin: 0 20px;
+    width: 350px;
+}
+
+.filterContainer {
+    width: 100%;
+    margin: 30px auto;
+    height: 95%;
+    justify-content: center;
+    display: flex;
+}
+
+.filterFixed {
+    position: fixed;
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+.filterByPrice {
+    align-items: center;
+    display: flex;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.filterButton {
+    position: absolute;
+    left: 250px;
+    background: none;
+    border: none;
+    width: 35px;
+}
+
+.play {
+    background-color: transparent;
+    border: none;
+    display: flex;
+}
+
+.play img {
+    height: 25px;
+    width: 25px;
+    transition: .5s;
+    filter:brightness(.5)
+}
+
+.play img:hover {
+    filter:brightness(1)
+}
+
+@media only screen and (max-width: 768px) {
+    .filter {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .toggleFilters img {
+        width: 40px;
+        margin: 5px 0;
+        opacity: .8;
+    }
+    .filterContainer {
+        display: flex;
+        margin: 30px 0 0 0;
+    }
+
+    .filterFixed {
+        position: relative;
+    }
+
+    .filterButton {
+        right: 0;
+        max-width: 30px;
+    }
+
+    .toggleFilters {
+        margin-top: 30px;
+    }
+    .filterContainer {
+        margin: 0;
+    }
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

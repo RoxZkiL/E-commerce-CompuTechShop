@@ -1,0 +1,55 @@
+.emptyFavorite {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: .5s;
+    opacity: .9;
+    margin-right: 2px;
+}
+
+
+.emptyFavorite:hover {
+    filter: brightness(1.5);
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.emptyFavorite img {
+    height: 25px;
+    width: auto;
+    display: flex;
+}
+.filledFavorite {
+    border: none;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    transition: .5s;
+    opacity: .9;
+    margin-right: 2px;
+}
+
+.filledFavorite:hover {
+    filter: brightness(2);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.filledFavorite img {
+    height: 25px;
+    width: auto;
+    display: flex;
+}
+
+/* @media only screen and (max-width: 768px) {
+    .wishIcon {
+        display: flex;
+        margin: 0;
+    }
+    .wishIcon img {
+        margin: 0;
+    }
+} */

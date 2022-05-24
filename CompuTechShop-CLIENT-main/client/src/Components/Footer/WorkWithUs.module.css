@@ -1,0 +1,56 @@
+.workWithUs {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.text{
+    color: black;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.caja { 
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    font-size: 18px; 
+    text-align: center; 
+    background: #889ccf7b; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 350px 0px 350px 0px; 
+    -moz-border-radius: 350px 0px 350px 0px; 
+    -webkit-border-radius: 350px 0px 350px 0px; 
+    border: 2px solid #5878ca;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.729);
+    margin-top: 15%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.caja h2 {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .caja {
+        border-radius: 100px 0px 100px 0px; 
+        -moz-border-radius: 100px 0px 100px 0px; 
+        -webkit-border-radius: 100px 0px 100px 0px; 
+        margin: auto;
+        margin-top: 60%;
+    }
+    .caja h2 {
+        font-size: 1.3rem;
+    }
+    .text {
+        font-size: 1.5rem;
+    }
+}
+
+

@@ -1,0 +1,41 @@
+.admin {
+    min-height: 100vh;
+}
+
+.adminContainer {
+    display: flex;
+    margin: auto;
+    height: 90vh;
+}
+
+.adminCard {
+    width: 300px;
+    height: 225px;
+    border-radius: 50px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.adminContainer button {
+    width: 300px;
+}
+
+.loginAdmin {
+    display: block;
+}
+
+.password {
+    margin:10px 0;
+}
+
+.loginAdmin {
+    margin-top: 170px;
+    position: absolute;
+}
+
+a {
+	text-decoration: none;
+}
+
+

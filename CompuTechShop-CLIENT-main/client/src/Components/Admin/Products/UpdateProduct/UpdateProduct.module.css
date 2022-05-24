@@ -1,0 +1,61 @@
+.updateProduct {
+    min-height: 100vh;
+    position: relative;
+}
+
+.updateProductContainer {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.form {
+    justify-content: center;
+    margin: 10px auto;
+    height: auto;
+    max-width: 500px;
+}
+
+.form .createButton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.form .coypyButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button {
+    text-align: center;
+}
+
+.cardsContainer {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+.cardsContainer .card {
+    margin: 20px 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .updateProductContainer {
+        display: flex;
+        flex-direction: column;
+    }
+    .cardsContainer .card {
+        margin: 30px 0
+    }
+
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }

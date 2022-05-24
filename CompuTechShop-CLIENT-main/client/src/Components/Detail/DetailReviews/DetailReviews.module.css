@@ -1,0 +1,29 @@
+.detailsReviews {
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.detailsReviewsContainer {
+    border-radius: 20px;
+    padding: 0 20px 0 20px;
+}
+
+.button {
+    background: none;
+    border: none;
+    display: flex;
+  }
+  .button img {
+    height: 20px;
+    display: flex;
+    transition: .5s;
+  }
+  .button img:hover {
+    filter: brightness(1.5);
+  }
+  
+  .button img:active {
+    transform: scale(1.5)
+  }

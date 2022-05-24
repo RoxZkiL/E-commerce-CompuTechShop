@@ -1,0 +1,13 @@
+.banned {
+    min-height: 100vh;
+}
+
+.bannedContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}

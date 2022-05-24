@@ -1,0 +1,19 @@
+.createCategory {
+    justify-content: center;
+    display: flex;
+    margin: 30px auto;
+}
+
+.createCategory h1 {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.createCatgoryBtn {
+    justify-content: center;
+    display: flex;
+}
+
+.form {
+    margin: auto;
+}

@@ -1,0 +1,229 @@
+.productDetail {
+    min-height: 100vh;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.productDetailContainer {
+    margin: 20px auto;
+    max-width: 1200px;
+    min-height: 1000px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px 30px 40px 30px;
+    margin-bottom: 100px;
+    color: black;
+}
+
+.productDetailContainerTwo {
+    margin: 0 auto;
+    max-width: 1100px;
+    height: auto;
+    display: flex;
+}
+
+.productDetailImgContainer {
+    max-width: 400px;
+    min-width: 300px;
+    height: 300px;
+    margin: 50px 0;
+}
+
+.productDetailImg {
+    max-width: 400px;
+    display: flex;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+.productDetailInfo {
+    width: 750px;
+    margin: 50px 0 0 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productDetailName {
+    font-size: 1.8rem;
+}
+
+.productDetailPrice {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.productDetailRating {
+    margin-top: 10px;
+}
+
+.allInfoDetail {
+    background-color: rgba(222, 222, 222, 0.29);
+    border-radius: 40px;
+    padding: 0 40px 40px 40px;
+    box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.628);
+}
+
+.characteristics {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    min-width: 200px;
+
+}
+
+.characteristicsContainer {
+    margin: 0 auto;
+    height: 100%;
+    min-width: 200px;
+    text-align: left;
+}
+
+.characteristicsContainer span {
+    font-weight: bold;
+}
+
+.productDetailDescription {
+    padding: 10px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.259);
+    width: 100%;
+    text-align: center;
+}
+
+.reviewContainer {
+    padding: 10px 0;
+    border-top: 1px solid rgba(128, 128, 128, 0.259);
+    width: 100%;
+    text-align: center;
+}
+
+.productDetailDescriptionContainer {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    border-radius: 40px;
+}
+
+.reviewsContainer {
+    margin: 0 auto;
+    height: 100%;
+    width: 50%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+.opinionsPromedy {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.259);
+}
+
+.opinionsPromedy h5 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.opinionsPromedy p {
+    line-height: .2;
+}
+
+.addBtn {
+    border: none;
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(19, 19, 189, 0.805);
+    border-radius: 100%;
+    box-shadow: 0 0 5px 1px blue;
+    transition: .5s;
+    opacity: .9;
+}
+
+.addBtn:active {
+    box-shadow: 0 0 10px 2px blue;
+}
+
+.addBtn:hover {
+    filter: brightness(1.5);
+    opacity: 1;
+}
+
+.addBtn img {
+    height: 22px;
+    width: auto;
+    margin: auto;
+    display: flex;
+}
+
+
+.wishAndCartContainer {
+    justify-content: center;
+    margin-left: 90%;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .productDetail {
+        flex-direction: column;
+    }
+
+    .productDetailContainer {
+        margin: 30px 0;
+        width: 100%;
+        display: inline-block;
+        height: auto;
+    }
+
+    .productDetailContainerTwo {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 30px 15px 100px 15px;
+        ;
+        height: auto;
+    }
+
+    .productDetailInfo {
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+        width: auto;
+    }
+
+    .productDetailImgContainer {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        vertical-align:middle;
+        max-height: 250px;
+    }
+
+    .productDetailImg {
+        display: flex;
+        margin: auto;
+        width: auto;
+        max-height: 250px;
+    }
+
+    .productDetailName {
+        margin: 0;
+        text-align: left;
+    }
+
+    .addBtn {
+        height: 30px;
+        width: 30px;
+    }
+
+    .addBtn img {
+        height: 18px;
+    }
+
+    .reviewsContainer {
+        width: 80%;
+    }
+}

@@ -1,0 +1,17 @@
+.adminUpdate {
+    min-height: 100vh;
+}
+
+.form {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 100px auto;
+    height: 650px;
+    box-shadow: 0 0 10px 1px rgba(128, 128, 128, 0.647);
+    border-radius: 40px;
+    justify-content: center;
+    display: block;
+}

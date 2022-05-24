@@ -1,0 +1,224 @@
+
+.productCard {
+    max-width: 900px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    color: black;
+    /* background-color: white; */
+    margin: 20px 0;
+    font-family: 'Orbitron', sans-serif;
+    animation-name: appear;
+    animation-duration: .5s;
+}
+
+.productCardContainer {
+    border: 1px solid rgba(128, 128, 128, 0.258);
+    background-color: white;
+}
+
+.productCardImgContainer{
+    min-width: 208px;
+    height: 160px;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.productImg {
+    height: auto;
+    max-height: 160px;
+    width: auto;
+    max-width: 208px;
+    display: flex;
+    margin: auto;
+    transition: .5s;
+    backface-visibility: hidden; 
+    -ms-transform: translateZ(0); 
+    -webkit-transform: translateZ(0); 
+    transform: translateZ(0);
+}
+
+.productImg:hover {
+    transform: scale(1.1);
+}
+
+.productCard h3 {
+    align-items: center;
+    text-align: left;
+    display: flex;
+    line-height: .7;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+
+.productCardInfo {
+    width: 950px;
+    height: 100%;
+    margin-left: 15px;
+    margin-right: 45px;
+    overflow: hidden;
+}
+
+.productCardName {
+    min-height: 50px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.productCardInfo a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.productCardPrice {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    line-height: 1rem;
+    overflow: visible;
+    vertical-align: text-bottom;
+    float: left;
+    margin-top: 15px;
+    width: 200px;
+}
+.productCardCalification {
+    line-height: 1em;
+    overflow: visible;
+    vertical-align: text-bottom;
+    float: left;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+
+.addBtn, .subsBtn, .dltAll, .addMore {
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(19, 19, 189, 0.805);
+    border-radius: 100%;
+    box-shadow: 0 0 5px 1px blue;
+    transition: .5s;
+    opacity: .9;
+}
+
+.addBtn:active, .subsBtn:active, .dltAll:active, .addMore:active {
+    box-shadow: 0 0 10px 2px blue;
+    transform: scale(1.2);
+}
+
+.addBtn:hover, .subsBtn:hover, .dltAll:hover, .addMore:hover {
+    filter: brightness(1.5);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.addBtn img, .subsBtn img, .dltAll img, .addMore img {
+    height: 18px;
+    width: auto;
+    display: flex;
+}
+.subsBtn {
+    background-color: gray;
+    box-shadow: 0 0 5px 1px black;
+}
+.dltAll {
+    background-color: rgba(255, 0, 0, 0.97);
+    box-shadow: 0 0 5px 1px black;
+}
+.addMore {
+    background-color: green;
+    box-shadow: black;
+}
+
+.wishAndCartBtns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-right: 0;  
+}
+
+.cardsBtns {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;  
+}
+
+.superBtnsContainer {
+    display: flex;
+}
+.superBtnsContainer button {
+    margin: 0 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .productCard {
+        width: auto;
+    }
+    .productCardContainer {
+        margin: 0 auto;
+    }
+    .productCardImgContainer{
+        width: 270px;
+        height: auto;
+        margin: 5px;
+    }
+    .productCard img{
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+    }
+
+    .productCardInfo {
+        margin: 3px;
+    }
+    .productCardName {
+        font-size: 1.2rem;
+        margin-top: 0;
+    }
+    .productCardPrice {
+        margin-top: 0;
+        max-width: 120px;
+    }
+    .productCardCalification {
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .wishAndCartBtns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 5px;
+        flex-direction: row;
+        margin-left: -5px;
+    }
+    .superBtnsContainer button {
+        margin: 1px 1px;
+    }
+    .superBtnsContainer {
+        display: flex;
+        margin: 1px;
+    }
+    .cardsBtns {
+        flex-direction: row;
+        margin-top: 5px;
+        margin-left: -25px;
+    }
+    .addBtn, .subsBtn, .dltAll, .addMore { 
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}

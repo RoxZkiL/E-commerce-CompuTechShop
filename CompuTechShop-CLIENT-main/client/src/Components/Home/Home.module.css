@@ -1,0 +1,39 @@
+.home {
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color: black; */
+    /* color: white; */
+    min-height: 100vh;
+    position: relative;
+}
+
+.homeContent {
+    width: 100%;
+}
+
+.carouselContainer {
+    margin: auto;
+    margin-bottom: 25px;
+    clip-path: inset(2.5px 0px 0px 0px);
+    max-width: 1500px;
+}
+
+.carouselContainer img {
+    max-height: 500px;
+}
+
+h4 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .home {
+        width: 100%;
+        position:relative;
+    }
+    .carouselContainer {
+        margin-top: 50px;
+    }
+    .carouselContainer img {
+        height: 250px;
+    }
+}

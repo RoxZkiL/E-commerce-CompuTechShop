@@ -1,0 +1,32 @@
+.adminNavBar {
+    width: 100%;
+    position: relative;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: rgb(243, 243, 243);
+    font-size: 0.6em;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 0px;
+  }
+
+  .adminButtons {
+      display: flex;
+      margin: auto;
+      align-items: center;
+  }
+  .adminButtons button {
+      margin: 0 15px;
+}
+
+  @media only screen and (max-width: 768px) {
+    .adminButtons button {
+        font-size: .6rem;
+        width: 55px;
+        margin: 0 6px;
+    }
+}

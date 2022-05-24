@@ -1,0 +1,27 @@
+.hideProduct {
+    display: none;
+}
+
+.purchaseResult {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 50%);
+}
+
+.purchaseResult h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .purchaseResult {
+        width: 90%
+    }
+}

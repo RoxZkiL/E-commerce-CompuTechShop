@@ -1,0 +1,21 @@
+.viewAllOrders {
+    min-height: 100vh;
+}
+
+.tabla {
+    margin: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.347);
+    margin-top: 100px;
+}
+
+.tableBtn {
+    position: absolute;
+    right: 100px;
+}
+
+.filterOrders {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+}

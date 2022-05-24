@@ -1,0 +1,22 @@
+.shopDetails {
+    min-height: 100vh;
+    position: relative;
+}
+
+.shopDetailCardContainer {
+    margin: 20px auto;
+    display: flex;
+    width: auto;
+}
+
+.shopDetailCard {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 50px auto;
+    width: auto;
+    border-radius: 35px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.349);
+}

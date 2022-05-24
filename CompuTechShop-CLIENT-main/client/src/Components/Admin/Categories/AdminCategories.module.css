@@ -1,0 +1,21 @@
+.adminCategories {
+    min-height: 100vh;
+}
+
+.viewAndCreateCategoryContainer {
+    margin: 30px auto;
+    display: flex;
+}
+
+.viewAndCreateCategory {
+    margin: 0 auto;
+    width: auto;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.349);
+}
+
+@media only screen and (max-width: 768px) {
+    .viewAndCreateCategory {
+        width: auto;
+    }
+}
