@@ -25,6 +25,8 @@ When you make a purchase you will receive an email saying that your purchase is 
 You can edit your user information after registration as well as change your profile picture and at the time of purchase you can change the shipping address if you wish.
 
 These, among many others, are some of the features of the project.
+    
+    Deployed Link: https://computechshop.vercel.app/
 
 I hope you like it!!
   </h3>
